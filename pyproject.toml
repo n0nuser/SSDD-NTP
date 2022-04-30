@@ -12,9 +12,7 @@ client = "main.client:start"
 python = ">=3.5.3, <3.6"
 requests = "*"
 Flask = ">=1.1, <2"
-
-[tool.poetry.dev-dependencies]
-pytest = "^5.2"
+Werkzeug = ">=0.15,<2.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
